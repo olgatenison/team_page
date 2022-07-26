@@ -1,0 +1,255 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 20px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+  font-style: normal;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+:root {
+  --primary-title-color: #ffffff;
+  --secondary-title-color: #ffd700;
+  --primary-text-color: #fff;
+  --secondary-text-color: #ffd700;
+  --primary-btn-color: #212121;
+  --secondary-btn-color: #626464;
+}
+body {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--primary-text-color);
+  background-color: #2c2d2f;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+.contant {
+  flex: 1 1 auto;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+/*--------------------*/
+.header__container {
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+
+  padding-top: 45px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #fff;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+.header__logo {
+  flex: 0 0 180px;
+}
+.header__menu {
+  display: flex;
+}
+.menu {
+}
+.menu__list {
+  display: flex;
+  align-items: center;
+}
+.menu-item {
+  padding-right: 50px;
+}
+.menu-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--primary-text-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--secondary-text-color);
+  text-decoration: underline;
+}
+.link {
+}
+.header__btn {
+  background: var(--primary-btn-color);
+  border-radius: 5px;
+  padding: 4px 28px 4px 28px;
+
+  color: var(--secondary-btn-color);
+}
+/*--------------------*/
+.team__container {
+  margin-top: 160px;
+  padding-bottom: 120px;
+}
+.team__title {
+  color: var(--secondary-title-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.team__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -25px;
+}
+.team__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0px 25px;
+  padding-bottom: 50px;
+}
+.team__img {
+  background-color: #626464;
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.team__name {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+.team__name:hover,
+.team__name:focus {
+  color: var(--secondary-text-color);
+}
+
+/*--------------------*/
+.footer {
+}
+.footer__container {
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+.footer__navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__logo {
+}
+.footer__menu {
+  display: flex;
+}
+.footer__menu__list_01 {
+  display: flex;
+}
+.footer__menu__list_01:after {
+  content: "";
+  background-color: #fff;
+  height: 27px;
+  padding: 1px;
+}
+.footer__menu__item_01 {
+  margin-right: 65px;
+}
+.footer__menu-link-01 {
+}
+.active {
+  color: var(--secondary-text-color);
+}
+.footer__menu__list-02 {
+  display: flex;
+  color: var(--primary-text-color);
+}
+
+.footer__menu-link-02 {
+  color: var(--primary-text-color);
+  margin-left: 40px;
+}
