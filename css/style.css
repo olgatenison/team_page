@@ -170,6 +170,12 @@ body {
 .team__container {
   margin-top: 160px;
   padding-bottom: 120px;
+
+  background-image: url(../img/bg_team.jpg);
+
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: calc(35%);
 }
 .team__title {
   color: var(--secondary-title-color);
