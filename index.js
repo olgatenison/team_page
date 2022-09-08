@@ -9,9 +9,9 @@ window.onload = function () {
     const secondplan = document.querySelector(".images-parallax__secondplan");
     const firstplan = document.querySelector(".images-parallax__firstplan");
 
-    const forClouds = 40;
-    const forFour = 30;
-    const forThird = 20;
+    const forClouds = 50;
+    const forFour = 40;
+    const forThird = 30;
     const forSecond = 15;
     const forFirst = 10;
 

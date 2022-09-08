@@ -259,19 +259,19 @@ body {
 }
 .images-parallax__thirdplan {
   background: url("../img/parallax/thirdplan.png") top / cover no-repeat;
-  top: 5%;
+  top: 3%;
   left: 2%;
   z-index: 3;
 }
 .images-parallax__secondplan {
   background: url("../img/parallax/secondplan.png") top / cover no-repeat;
-  top: 3%;
+  top: 5%;
   left: 0%;
   z-index: 4;
 }
 .images-parallax__firstplan {
   background: url("../img/parallax/firstplan.png") top / cover no-repeat;
-  top: 2%;
+  top: 3%;
   z-index: 5;
 }
 /*--------------------*/
