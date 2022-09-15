@@ -374,3 +374,99 @@ body {
   color: var(--secondary-text-color);
   text-decoration: underline;
 }
+/*--------------------*/
+.intro__wrapper {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/intro_img/2500bg.jpg") bottom center/ cover no-repeat;
+}
+.intro__container {
+  width: 650px;
+  margin: 0 auto;
+}
+.intro__container1 {
+  opacity: 1;
+
+  animation-name: hide;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-delay: 7.8s;
+}
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    display: hidden;
+  }
+}
+
+.intro__text {
+  margin-top: 230px;
+  font-size: 0.9rem;
+  color: #fff;
+  line-height: 1.3rem;
+  font-weight: 200;
+  position: relative;
+
+  text-indent: 1.5em;
+  text-align: justify;
+
+  opacity: 0;
+  animation: 0.5s fade-in ease-out forwards;
+  animation-delay: 0.8s;
+}
+@keyframes fade-in {
+  to {
+    opacity: 1;
+  }
+}
+
+.intro__text2 {
+  text-indent: 1.5em;
+  text-align: justify;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #fff;
+  line-height: 1.3rem;
+  position: relative;
+  font-weight: 200;
+  opacity: 0;
+  animation: 0.5s swift-up ease-out forwards, 0.5s fade-in ease-out forwards;
+  animation-delay: 4.8s;
+}
+
+.intro__span {
+  color: var(--secondary-text-color);
+  font-weight: 600;
+}
+.intro__text3 {
+  margin-top: 230px;
+  font-size: 0.9rem;
+  color: #fff;
+  line-height: 1.3rem;
+  font-weight: 200;
+  position: relative;
+  text-align: justify;
+
+  opacity: 0;
+  animation: 0.5s fade-in ease-out forwards;
+  animation-delay: 0.8s;
+}
+
+.intro__container5 {
+  display: flex;
+  margin: 0 auto;
+}
+.gerb {
+  height: 90px;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-top: 240px;
+
+  opacity: 0;
+  animation: 0.5s fade-in ease-out forwards;
+  animation-delay: 0.8s;
+}
