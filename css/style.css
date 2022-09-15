@@ -398,7 +398,7 @@ body {
   }
 
   100% {
-    opacity: 0;
+    opacity: 1;
     display: hidden;
   }
 }
